@@ -1,0 +1,10 @@
+nome = str(input('Digite seu nome: ')).strip()
+print('SEU NOME EM MAIUSCULO: {}.'.format(nome.upper()))
+print('SEU NOME EM MINUSCULO: {}.'.format(nome.lower()))
+qtdeNme = len(nome)
+branco = nome.count(' ')
+total = qtdeNme - branco
+print('SEU NOME TEM O TOTAL DE {} letras.'.format(total))
+primeiro = nome.split()
+#print('SEU PRIMEIRO NOME TEM: {} LETRAS.'.format(len(primeiro[0])))
+print('Seu primeiro nome tem: {} letras.'.format(nome.find(' ')))
