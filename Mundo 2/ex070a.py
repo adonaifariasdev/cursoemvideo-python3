@@ -7,7 +7,8 @@ while True:
     total += preco
     if preco > 1000:
         totmil += 1
-    '''if cont == 1 or preco < menor: #####Forma simplificada ja que no else: se repete a condição, ou seja, dois blobos iguais.
+    '''if cont == 1 or preco < menor: #####Forma simplificada ja que 
+        no else: se repete a condição, ou seja, dois blobos iguais.
         menor = preco
         barato = produto'''
     if cont == 1:
