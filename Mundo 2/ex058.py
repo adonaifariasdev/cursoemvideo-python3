@@ -22,7 +22,8 @@ while jogador != computador:
         print('Mais...', end='')
     jogador = int(input('Em que número eu pensei? '))
     totJogadas += 1
-print('Eu escolhi o número {}. Você GANHOU na {}a. tentativa!\nParabéns!!!'.format(computador, totJogadas + 1))
+print('Eu escolhi o número {}. Você GANHOU na {}a. tentativa!\nParabéns!!!'
+      .format(computador, totJogadas + 1))
 print('-=-'*20)
 print('{:^60}'.format(' DEVELOPED BY ADONAI VALMONT '))
 print('{:^60}'.format(' oficialadonai@hotmail.com '))
