@@ -16,7 +16,7 @@ while True:
     print('Tente novamente.', end='')
 print(f'Você digitou o número {cont[num]}')
 
-# FORMA DO ADONAI
+# FORMA DO ADONAI!
 '''num = -1
 while num not in range(0, 21):
     num = int(input('Digite um número entre 0 e 20: '))
